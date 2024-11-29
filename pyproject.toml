@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "genre_recognition"
+version = "0.1.0"
+description = ""
+authors = ["José Evans <jpjoao24@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+wave = "^0.0.2"
+llvmlite = "^0.43.0"
+librosa = "^0.10.2.post1"
+ipykernel = "^6.29.5"
+kagglehub = "^0.3.4"
+pandas = "^2.2.3"
+ace-tools = "^0.0"
+
+[tool.poetry.group.dev.dependencies]
+matplotlib = "^3.9.2"
+numpy = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
